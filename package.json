@@ -1,0 +1,29 @@
+{
+  "name": "obrc",
+  "version": "1.0.0",
+  "description": "repository for the one billion row chalenge in Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node src/populate.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feramalheira/obrc.git"
+  },
+  "keywords": [],
+  "author": "feramalheira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feramalheira/obrc/issues"
+  },
+  "homepage": "https://github.com/feramalheira/obrc#readme",
+  "dependencies": {
+    "@types/node": "^24.9.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.1.0"
+  },
+  "type": "module"
+}
