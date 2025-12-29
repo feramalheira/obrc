@@ -4,7 +4,7 @@
   "description": "repository for the one billion row chalenge in Nodejs",
   "main": "index.js",
   "scripts": {
-    "populate": "node src/populate.js",
+    "setup": "node src/setup/populate.js",
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
